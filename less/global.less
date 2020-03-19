@@ -49,3 +49,26 @@ img {
     margin: 0 5%;
   }
 }
+
+.funBusHeading {
+  font-size: 60px;
+  color: orange;
+  cursor: pointer;
+}
+.navBar {
+    animation-name: cssAnimation; 
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    // -webkit-animation-timing-function: ease;
+    // -webkit-animation-fill-mode: forwards;
+  @keyframes cssAnimation {
+    from {
+      transform: rotate(0deg) scale(1) skew(0deg) translate(10px);
+    }
+    to {
+      transform: rotate(360deg) scale(2) skew(0deg) translate(10px);
+    }
+  }
+
+}
+
